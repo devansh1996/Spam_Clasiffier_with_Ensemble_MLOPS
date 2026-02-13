@@ -1,0 +1,11 @@
+2026-02-13 19:55:33,948 - data_ingestion - ERROR - Unexpected error during preprocessing: 'NoneType' object is not subscriptable
+2026-02-13 19:55:54,190 - data_ingestion - ERROR - Unexpected error during preprocessing: 'NoneType' object is not subscriptable
+2026-02-13 19:59:27,858 - data_ingestion - ERROR - Unexpected error during preprocessing: 'NoneType' object is not subscriptable
+2026-02-13 20:01:19,002 - data_ingestion - ERROR - Unexpected error during preprocessing: 'NoneType' object has no attribute 'drop'
+2026-02-13 20:02:03,643 - data_ingestion - ERROR - Unexpected error during preprocessing: 'NoneType' object has no attribute 'drop'
+2026-02-13 20:04:22,126 - data_ingestion - ERROR - Missing column in the dataframe: "['Unnamed:2', 'Unnamed:3', 'Unnamed:4'] not found in axis"
+2026-02-13 20:04:22,126 - data_ingestion - ERROR - failed in data load:"['Unnamed:2', 'Unnamed:3', 'Unnamed:4'] not found in axis"
+2026-02-13 20:05:04,354 - data_ingestion - ERROR - Missing column in the dataframe: "['Unnamed:2', 'Unnamed:3', 'Unnamed:4'] not found in axis"
+2026-02-13 20:05:04,355 - data_ingestion - ERROR - failed in data load:"['Unnamed:2', 'Unnamed:3', 'Unnamed:4'] not found in axis"
+2026-02-13 20:05:48,192 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-13 20:05:48,229 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
