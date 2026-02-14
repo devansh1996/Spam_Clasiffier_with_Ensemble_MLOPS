@@ -1,0 +1,5 @@
+2026-02-14 22:02:58,926 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_preprocess.csv
+2026-02-14 22:02:58,931 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_preprocess.csv
+2026-02-14 22:02:59,081 - feature_engineering - DEBUG - tfidf applied and data transformed
+2026-02-14 22:03:01,917 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-02-14 22:03:02,924 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv

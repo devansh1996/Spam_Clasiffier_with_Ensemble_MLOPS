@@ -1,0 +1,17 @@
+2026-02-14 21:58:39,605 - data_preprocess - DEBUG - data loaded
+2026-02-14 21:58:39,607 - data_preprocess - DEBUG - starting the process
+2026-02-14 21:58:39,640 - data_preprocess - ERROR - couldnt save
+2026-02-14 21:59:29,479 - data_preprocess - DEBUG - data loaded
+2026-02-14 21:59:29,479 - data_preprocess - DEBUG - starting the process
+2026-02-14 21:59:29,479 - data_preprocess - ERROR - column not found:'target'
+2026-02-14 21:59:29,483 - data_preprocess - ERROR - couldnt save
+2026-02-14 22:02:30,914 - data_preprocess - DEBUG - data loaded
+2026-02-14 22:02:30,914 - data_preprocess - DEBUG - starting the process
+2026-02-14 22:02:30,920 - data_preprocess - DEBUG - Target column encoded
+2026-02-14 22:02:30,935 - data_preprocess - DEBUG - Duplicates removed
+2026-02-14 22:02:32,952 - data_preprocess - DEBUG - text column transformed
+2026-02-14 22:02:32,953 - data_preprocess - DEBUG - starting the process
+2026-02-14 22:02:32,954 - data_preprocess - DEBUG - Target column encoded
+2026-02-14 22:02:32,957 - data_preprocess - DEBUG - Duplicates removed
+2026-02-14 22:02:33,662 - data_preprocess - DEBUG - text column transformed
+2026-02-14 22:02:33,680 - data_preprocess - DEBUG - files saved
