@@ -1,0 +1,15 @@
+2026-02-14 23:39:53,527 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (3935, 1001)
+2026-02-14 23:39:53,548 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 25, 'random_state': 42}
+2026-02-14 23:39:53,548 - model_building - ERROR - Error during model training: 'IsolationForest' object is not callable
+2026-02-14 23:39:53,549 - model_building - ERROR - Failed to complete the model building process: 'IsolationForest' object is not callable
+2026-02-14 23:48:44,080 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (3935, 1001)
+2026-02-14 23:48:44,093 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 25, 'random_state': 42}
+2026-02-14 23:48:44,093 - model_building - DEBUG - Model training started with 3935 samples
+2026-02-14 23:48:44,431 - model_building - DEBUG - Model training completed
+2026-02-14 23:48:44,434 - model_building - ERROR - Error occurred while saving the model: name 'pickle' is not defined
+2026-02-14 23:48:44,434 - model_building - ERROR - Failed to complete the model building process: name 'pickle' is not defined
+2026-02-14 23:49:10,176 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (3935, 1001)
+2026-02-14 23:49:10,187 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 25, 'random_state': 42}
+2026-02-14 23:49:10,188 - model_building - DEBUG - Model training started with 3935 samples
+2026-02-14 23:49:10,460 - model_building - DEBUG - Model training completed
+2026-02-14 23:49:10,466 - model_building - DEBUG - Model saved to models/model.pkl
