@@ -23,3 +23,10 @@
 2026-02-15 17:16:47,088 - data_ingestion - DEBUG - Data preprocessing completed
 2026-02-15 17:16:47,117 - data_ingestion - ERROR - Unexpected error occurred while saving the data: name 'raw_data_path' is not defined
 2026-02-15 17:16:47,119 - data_ingestion - ERROR - failed in data load:name 'raw_data_path' is not defined
+2026-02-15 17:30:12,110 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 17:30:12,160 - data_ingestion - ERROR - Unexpected error occurred while saving the data: name 'raw_data_path' is not defined
+2026-02-15 17:30:12,166 - data_ingestion - ERROR - failed in data load:name 'raw_data_path' is not defined
+2026-02-15 17:31:00,685 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 17:31:00,728 - data_ingestion - DEBUG - Train and test data saved
+2026-02-15 17:31:33,018 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 17:31:33,048 - data_ingestion - DEBUG - Train and test data saved
