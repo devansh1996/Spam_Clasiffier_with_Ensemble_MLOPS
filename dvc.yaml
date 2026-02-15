@@ -6,7 +6,8 @@ stages:
     # params:
     # - data_ingestion.test_size
     outs:
-    - data/raw
+    - data/raw/test.csv
+    - data/raw/train.csv
   data_preprocess:
     cmd: python src/data_preprocess.py
     deps:
