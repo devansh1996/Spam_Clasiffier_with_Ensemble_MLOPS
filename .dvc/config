@@ -1,2 +1,3 @@
 [cache]
     type = copy
+    dir = C:\dvc-cache

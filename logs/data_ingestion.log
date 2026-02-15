@@ -72,3 +72,15 @@
 2026-02-15 18:20:46,781 - data_ingestion - DEBUG - Train saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\train.csv
 2026-02-15 18:20:46,782 - data_ingestion - DEBUG - Test saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\test.csv
 2026-02-15 18:20:46,783 - data_ingestion - DEBUG - Raw dir exists after save: True
+2026-02-15 18:21:25,947 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 18:21:25,984 - data_ingestion - DEBUG - Train saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\train.csv
+2026-02-15 18:21:25,984 - data_ingestion - DEBUG - Test saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\test.csv
+2026-02-15 18:21:25,986 - data_ingestion - DEBUG - Raw dir exists after save: True
+2026-02-15 18:22:15,718 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 18:22:15,746 - data_ingestion - DEBUG - Train saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\train.csv
+2026-02-15 18:22:15,746 - data_ingestion - DEBUG - Test saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\test.csv
+2026-02-15 18:22:15,747 - data_ingestion - DEBUG - Raw dir exists after save: True
+2026-02-15 18:23:32,041 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 18:23:32,071 - data_ingestion - DEBUG - Train saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\train.csv
+2026-02-15 18:23:32,071 - data_ingestion - DEBUG - Test saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\test.csv
+2026-02-15 18:23:32,073 - data_ingestion - DEBUG - Raw dir exists after save: True
