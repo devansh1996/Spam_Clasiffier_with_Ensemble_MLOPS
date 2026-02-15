@@ -63,13 +63,19 @@ def preprocess_data(df:pd.DataFrame)->pd.DataFrame:
 
   
 def save_data(train_data:pd.DataFrame,test_data:pd.DataFrame,data_path:str):
-    """Save the train and\ test datasets."""
+    """Save the train and test datasets."""
     try:
-        raw_data_path = os.path.join(data_path, 'raw') 
-        os.makedirs(raw_data_path, exist_ok=True) 
-        train_data.to_csv(os.path.join(raw_data_path, "train.csv"), index=False) 
-        test_data.to_csv(os.path.join(raw_data_path, "test.csv"), index=False)
-        logger.debug('Train and test data saved')
+        raw_dir = (Path(data_path) / "raw").resolve()
+        raw_dir.mkdir(parents=True, exist_ok=True)
+
+        train_file = raw_dir / "train.csv"
+        test_file  = raw_dir / "test.csv"
+
+        train_data.to_csv(train_file, index=False)
+        test_data.to_csv(test_file, index=False)
+        logger.debug("Train saved to: %s", train_file)
+        logger.debug("Test saved to: %s", test_file)
+        logger.debug("Raw dir exists after save: %s", raw_dir.exists())
     except Exception as e:
         logger.error('Unexpected error occurred while saving the data: %s', e)
         raise
