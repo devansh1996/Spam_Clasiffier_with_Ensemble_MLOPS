@@ -48,3 +48,7 @@
 2026-02-15 17:52:21,272 - data_ingestion - DEBUG - Train saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\train.csv
 2026-02-15 17:52:21,273 - data_ingestion - DEBUG - Test saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\test.csv
 2026-02-15 17:52:21,274 - data_ingestion - DEBUG - Raw dir exists after save: True
+2026-02-15 17:53:35,879 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 17:53:35,907 - data_ingestion - DEBUG - Train saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\train.csv
+2026-02-15 17:53:35,907 - data_ingestion - DEBUG - Test saved to: C:\Users\DevanshSharma\Learning Projects\Call_Spam_detector\Spam_Clasiffier_with_Ensemble_MLOPS\data\raw\test.csv
+2026-02-15 17:53:35,909 - data_ingestion - DEBUG - Raw dir exists after save: True
