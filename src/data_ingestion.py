@@ -4,7 +4,10 @@ from sklearn.model_selection import train_test_split
 import logging
 import yaml
 import chardet
+from pathlib import Path
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]   # src/.. = repo root
+DATA_DIR = PROJECT_ROOT / "data"
 
 ##Ensure the logs Directory exists
 log_dir='logs'
@@ -60,12 +63,12 @@ def preprocess_data(df:pd.DataFrame)->pd.DataFrame:
 
   
 def save_data(train_data:pd.DataFrame,test_data:pd.DataFrame,data_path:str):
-    """Save the train and test datasets."""
+    """Save the train and\ test datasets."""
     try:
-        raw_data_path = os.path.join(data_path, 'raw')
-        os.makedirs(raw_data_path, exist_ok=True)
-        train_data.to_csv(os.path.join(raw_data_path, "train.csv"), index=False)
-        test_data.to_csv(os.path.join(raw_data_path, "test.csv"), index=False)
+        raw_dir = data_path / "raw"
+        raw_dir.mkdir(parents=True, exist_ok=True)
+        train_data.to_csv(os.path.join(raw_dir, "train.csv"), index=False)
+        test_data.to_csv(os.path.join(raw_dir, "test.csv"), index=False)
         logger.debug('Train and test data saved to %s', raw_data_path)
     except Exception as e:
         logger.error('Unexpected error occurred while saving the data: %s', e)
@@ -80,7 +83,7 @@ def main():
     df=load_data(data_path)
     final_df=preprocess_data(df)
     train_data,test_data=train_test_split(final_df,test_size=test_size,random_state=0000)
-    save_data(train_data,test_data,data_path='./data') ##. mean here to go to root
+    save_data(train_data,test_data,data_path=DATA_DIR) ##. mean here to go to root
    except Exception as e:
         logger.error('failed in data load:%s',e)
         raise

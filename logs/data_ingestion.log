@@ -11,3 +11,9 @@
 2026-02-13 20:05:48,229 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
 2026-02-14 22:02:00,173 - data_ingestion - DEBUG - Data preprocessing completed
 2026-02-14 22:02:00,215 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-15 16:52:00,682 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 16:52:00,720 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-15 16:52:56,697 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 16:52:56,727 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-15 17:10:32,512 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-15 17:10:32,549 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
